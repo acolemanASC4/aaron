@@ -30,5 +30,3 @@ myPokemonRoster.length
 myPokemonRoster.pop()
 myPokemonRoster.reverse()
 myPokemonRoster.length
-if (myPokemonRoster.length > 4) { for (var i =0; i< myPokemonRoster.length; i++){console.log(myPokemonRoster[i])}} 
-else (myPokemonRoster.length => 5) {console.log("You Can't Play!!! Not Enough Pokemon!!")}
