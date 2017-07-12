@@ -10,3 +10,12 @@ if (name === "Aaron"){console.log("This is Aaron")
 }else if (name === "Bob"){ console.log("Bob")
 } else if (name === "Will"){console.log("Who is he?")
 } else {console.log("That's a L")}
+
+
+var favoritefood = "Ramen"
+
+if (favoritefood == "Ramen"){
+    console.log("I like Cup o Noodles")
+}else{
+    console.log ("Dang")
+}
