@@ -1,8 +1,3 @@
-// function rand(num){
-//   return Math.floor(Math.random()*num);
-// }
-
-
 
 
 var mashArray = ["Super Mario World", "Final Destination", "Shack", "Fry Cook Station"];
@@ -20,10 +15,21 @@ function begin(){
 }
 
 begin()
+console.log("That was and intant dub!!")
 
-// for (var i=0; i<2; i++){
-//   spouses.push(prompt("Who do you want to marry?"));
-// }
+var playAgain = ["y", "n"];
+var prompt = require('prompt-sync')();
+var restart = prompt('Do you want to play again? ' + '[' + playAgain + '] ')
 
-// console.log("You will live in a(n) "+mash[rand(4)]);
-// console.log("You will marry "+spouses[rand(4)]);
+if (restart === playAgain[0]){
+    begin();
+    var prompt = require('prompt-sync')();
+    console.log("That was and intant dub!!");
+    restart = prompt('Do you want to play again? ' + '[' + playAgain + '] ')
+} else (console.log ("Thanks for playing, Good Bye."))
+   
+
+
+
+
+
