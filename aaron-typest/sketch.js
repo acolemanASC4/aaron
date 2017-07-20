@@ -13,7 +13,7 @@ function setup(){
   background(v,g,q)
 
 textSize(20);
-text("Test Your Skillz!! Click the Screen for a new word.", 550, 150);
+text("Test Your Skillz!! Click the Screen for a new word.Type the word below.", 550, 150);
 
 
 text(s[vz], 550, 250, 7000, 8000);
@@ -35,7 +35,7 @@ function keyPressed(){
   cnv.mouseClicked(changeGray)
   background(v,g,q)
         textSize(20);
-        text("Test Your Skillz!!", 550, 150);
+        text("Test Your Skillz!!Click the Screen for a new word. Type the word below.", 550, 150);
         text(s[vz], 550, 250, 7000, 8000);
         if (inp.value() === s[vz]){
             alert("Correct!!")
@@ -58,7 +58,7 @@ vz = Math.floor(Math.random()*6)
     background(v,g,q)
 
     textSize(20);
-text("Test Your Skillz!!Click the Screen for a new word.", 550, 150);
+text("Test Your Skillz!!Click the Screen for a new word.Type the word below.", 550, 150);
 
 text(s[vz], 550, 250, 1200, 1200);
  }

@@ -56,11 +56,11 @@ playerChoice()
 
 
 
-// //Subtracts 10 HP from the pokemon
-// function pokemonAttacked() {
-//     for (var i = 0; i<roster.length; i++){
-//         roster[i].hp -= 10;
-//     }
-// }
+//Subtracts 10 HP from the pokemon
+function pokemonAttacked() {
+    for (var i = 0; i<roster.length; i++){
+        roster[i].hp -= 10;
+    }
+}
 
 

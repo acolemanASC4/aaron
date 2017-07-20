@@ -15,6 +15,8 @@ printBoard(board);
 // Just adding a separator
 console.log("================================");
 
+var prompt = require('prompt-sync')();
+
 var y = prompt("What row do you want to pick? (1-3)");
 y=Number(y)-1;
 
