@@ -10,23 +10,35 @@ function setup() {
 var x = 100
 var y = 100
 var s = 100
+var ell = ellipse(x,y,s)
 var xIncrement = 5
 var yIncrement = 1
+
+var edge = false;
+
+if (ellipse.x > windowWidth -10 || ellipse.x < 10) {
+            edge = true
+        }
+
+if (edge) {
+    cnv = createCanvas(windowWidth, windowHeight)
+    background(v,q,p)
+    }
 
 function draw(){
     background(v,q,p)
     fill(q,v,p)
-    ellipse(x,y,s)
+    ell
     x += xIncrement;
     y += yIncrement
 
     if (x >= windowWidth - 50 || x <= 50){
         xIncrement = -xIncrement
-        background(p,q,v)
     }
     if (y >= windowHeight - 50 || y <= 50){
         yIncrement = -yIncrement
-        background(v,q,p)
     }
 }
+
+
 
