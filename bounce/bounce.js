@@ -9,14 +9,12 @@ function setup() {
 
 var x = 100
 var y = 100
-var s = 100
-var ell = ellipse(x,y,s)
 var xIncrement = 5
 var yIncrement = 1
-
+var ellipser = 50
 var edge = false;
-
-if (ellipse.x > windowWidth -10 || ellipse.x < 10) {
+var windowWidths = windowWidth 
+if (ellipser > windowWidths -10 || ellipser < 10) {
             edge = true
         }
 
@@ -28,7 +26,7 @@ if (edge) {
 function draw(){
     background(v,q,p)
     fill(q,v,p)
-    ell
+    ellipse(x,y)
     x += xIncrement;
     y += yIncrement
 

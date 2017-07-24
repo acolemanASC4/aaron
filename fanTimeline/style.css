@@ -1,0 +1,19 @@
+body{
+    background-image : url('http://content.wallpapers-room.com/resolutions/1440x900/c/Wallpapers-room_com___celestial_background_53_by_frostbo_1440x900.png');
+    background-size: cover;
+    margin:20px;
+}
+.Life{
+    font-family: Haettenschweiler
+}
+img {
+    border: 1px solid powderblue;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-between
+}
+iframe{
+    width: 323px
+}
