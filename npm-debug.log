@@ -1,0 +1,80 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'https://nodejs.org/en/',
+1 verbose cli   '-g' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData https://nodejs.org/en/
+8 silly fetchOtherPackageData https://nodejs.org/en/
+9 silly cache add args [ 'https://nodejs.org/en/', null ]
+10 verbose cache add spec https://nodejs.org/en/
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'https://nodejs.org/en/',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'https://nodejs.org/en/',
+11 silly cache add   spec: 'https://nodejs.org/en/',
+11 silly cache add   type: 'remote' }
+12 silly mapToRegistry name https://nodejs.org/en/
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'https://nodejs.org/en/',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   escapedName: null,
+15 silly mapToRegistry   name: null,
+15 silly mapToRegistry   rawSpec: 'https://nodejs.org/en/',
+15 silly mapToRegistry   spec: 'https://nodejs.org/en/',
+15 silly mapToRegistry   type: 'remote' }
+16 silly mapToRegistry uri https://nodejs.org/en/
+17 verbose addRemoteTarball https://nodejs.org/en/ not in flight; adding
+18 verbose addRemoteTarball [ 'https://nodejs.org/en/', null ]
+19 info retry fetch attempt 1 at 10:58:57 AM
+20 info attempt registry request try #1 at 10:58:57 AM
+21 http fetch GET https://nodejs.org/en/
+22 verbose request id 965231a5cfd64546
+23 http fetch 200 https://nodejs.org/en/
+24 silly fetchAndShaCheck shasum f8656d31fc9c2a325505fd0c06e9d7342af91ad0
+25 verbose addTmpTarball C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\nodejs.org\en not in flight; adding
+26 verbose correctMkdir C:\Users\ASC Guest\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 verbose addTmpTarball validating metadata from C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\nodejs.org\en
+28 verbose tar unpack C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\nodejs.org\en
+29 verbose tar unpacking to C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\unpack-0d82e0f8
+30 silly gentlyRm C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\unpack-0d82e0f8 is being purged
+31 verbose gentlyRm don't care about contents; nuking C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\unpack-0d82e0f8
+32 silly gunzTarPerm modes [ '777', '666' ]
+33 error not a package C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\nodejs.org\en
+34 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\unpack-0d82e0f8\package.json'
+34 silly fetchPackageMetaData     at Error (native)
+34 silly fetchPackageMetaData  error for https://nodejs.org/en/ { Error: ENOENT: no such file or directory, open 'C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\unpack-0d82e0f8\package.json'
+34 silly fetchPackageMetaData     at Error (native)
+34 silly fetchPackageMetaData   errno: -4058,
+34 silly fetchPackageMetaData   code: 'ENOENT',
+34 silly fetchPackageMetaData   syscall: 'open',
+34 silly fetchPackageMetaData   path: 'C:\\Users\\ASCGUE~1\\AppData\\Local\\Temp\\npm-5480-121f69e7\\unpack-0d82e0f8\\package.json' }
+35 silly rollbackFailedOptional Starting
+36 silly rollbackFailedOptional Finishing
+37 silly runTopLevelLifecycles Finishing
+38 silly install printInstalled
+39 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\unpack-0d82e0f8\package.json'
+39 verbose stack     at Error (native)
+40 verbose cwd C:\Users\ASC Guest\Desktop\aaron
+41 error Windows_NT 10.0.14393
+42 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "https://nodejs.org/en/" "-g"
+43 error node v6.11.0
+44 error npm  v3.10.10
+45 error path C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\unpack-0d82e0f8\package.json
+46 error code ENOENT
+47 error errno -4058
+48 error syscall open
+49 error enoent ENOENT: no such file or directory, open 'C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\unpack-0d82e0f8\package.json'
+50 error enoent ENOENT: no such file or directory, open 'C:\Users\ASCGUE~1\AppData\Local\Temp\npm-5480-121f69e7\unpack-0d82e0f8\package.json'
+50 error enoent This is most likely not a problem with npm itself
+50 error enoent and is related to npm not being able to find a file.
+51 verbose exit [ -4058, true ]

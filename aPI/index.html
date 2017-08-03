@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Kermit the Frog</title>
+		<meta name="author" content="Aaron Coleman">
+	    <meta name="description" content="Find the perfect Doge GIF">
+	    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+        <!--jQuery, linked from a CDN-->
+		<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+		<!-- Main Script -->
+		<script src="./sketch.js"></script>
+
+		<!-- Normalize.css is a customisable CSS file that makes 
+		browsers render all elements more consistently and in line 
+		with modern standards. -->
+		<link href="./normalize.css" rel="stylesheet">
+
+		<!-- My Style -->
+		<link href="./style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- Header image of otter -->
+			<section id="gifSection">
+			<img id="gif" alt="Avatar" src="https://cashcultureandviolence.files.wordpress.com/2011/01/20110125-104507.jpg">
+			</section>
+		</div>
+			<!-- Header -->
+			<h1>Kermit the Frog Gifs</h1>
+			<!-- Button used for search -->
+			<button id="search" onclick="fetchGif()">Get Some Kermit</button>
+			<!-- Section where GIF will be displayed -->
+		<div class="container">
+		</div>
+	</body>
+</html>
